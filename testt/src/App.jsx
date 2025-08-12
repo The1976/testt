@@ -1,11 +1,10 @@
-import Navbar from "./components/Navbar.jsx";
-import Listeler from "./components/Liste.jsx";
-export default function App() {
+import Navbar from './components/Navbar';
+import Listeler from './components/Liste';
+export default function Hello() {
     return (
         <>
             <Navbar />
-            <div className='container'>
-            </div>
+            <Listeler />
         </>
     )
 }
